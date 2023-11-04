@@ -38,8 +38,8 @@ const Items = ({ pokemons }: Props) => {
                 <Image
                   alt={`image of ${pokemon.name}`}
                   src={`https://bzgzlhdowumbsdyxqlso.supabase.co/storage/v1/object/public/pokemonimages/${pokemon.image}`}
-                  width={52}
-                  height={52}
+                  width={54}
+                  height={54}
                   className='rounded'
                 />
               </Box>
