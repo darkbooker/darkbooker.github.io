@@ -49,7 +49,7 @@ export default function SearchComponent() {
           </TextField.Slot>
           <TextField.Input
             onChange={(e) => handleChange(e.target.value)}
-            placeholder='Find the pokemon…'
+            placeholder='Search...'
             value={search}
           />
           <Button type='submit' variant='solid'>
