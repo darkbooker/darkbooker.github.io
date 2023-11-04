@@ -36,6 +36,10 @@ const Items = ({ pokemons }: Props) => {
           <Card variant='surface' className='px-3 pt-2'>
             <Box className='sm:flex block items-center gap-6'>
               <Box className='sm:pb-0 pb-2 '>
+                {/* Display the setname above the image */}
+                <Text as='div' color='gray' size='3' className='text-[#9E9EFF] pb-1'>
+                  {pokemon.setname[0].toUpperCase() + pokemon.setname.slice(1)}
+                </Text>
                 <Image
                   alt={`image of ${pokemon.name}`}
                   src={`https://bzgzlhdowumbsdyxqlso.supabase.co/storage/v1/object/public/pokemonimages/${pokemon.image}`}
