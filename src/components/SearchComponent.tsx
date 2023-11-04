@@ -43,19 +43,19 @@ export default function SearchComponent() {
   return (
     <Box className='mb-10'>
       <form onSubmit={handleSubmit} className='py-2'>
-        <TextField.Root>
-          <TextField.Slot>
-            <MagnifyingGlassIcon height='16' width='16' />
-          </TextField.Slot>
-          <TextField.Input
-            onChange={(e) => handleChange(e.target.value)}
-            placeholder='Search...'
-            value={search}
-          />
-          <Button type='submit' variant='solid'>
-            Search
-          </Button>
-        </TextField.Root>
+      <TextField.Root style={{ backgroundColor: 'red' }}>
+  <TextField.Slot>
+    <MagnifyingGlassIcon height='16' width='16' />
+  </TextField.Slot>
+  <TextField.Input
+    onChange={(e) => handleChange(e.target.value)}
+    placeholder='Search...'
+    value={search}
+  />
+  <Button type='submit' variant='solid'>
+    Search
+  </Button>
+</TextField.Root>
         {search && (
           <Box className='rounded-b-md rounded-bl-md relative w-full shadow-lg z-10'>
             <Box className='absolute bg-[#17191a] rounded-b-md rounded-bl-md py-1 w-full '>
