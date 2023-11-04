@@ -29,7 +29,7 @@ const Items = ({ pokemons }: Props) => {
         <Box key={pokemon.id} className='my-2'>
           <Flex className='pb-2'>
             <Heading size='6' weight='bold' className='py-1'>
-              {pokemon.name[0].toUpperCase() + pokemon.name.slice(1)} {pokemon.setname} {/* Added setname */}
+              {pokemon.name[0].toUpperCase() + pokemon.name.slice(1)}{" "}
             </Heading>
           </Flex>
 
@@ -46,6 +46,18 @@ const Items = ({ pokemons }: Props) => {
               </Box>
               <Grid columns={{ initial: "1", md: "2" }} className='grid w-full'>
                 <Box>
+                </Flex>
+                  </Text>
+                  <Text as='div' color='gray' size='3'>
+                    <Flex>
+                      <div className='w-16'>Ability:</div>
+                      <Text className='text-[#9E9EFF] pl-3'>
+                        {pokemon.ability[0].toUpperCase() + pokemon.ability.slice(1)}
+                      </Text>
+                    </Flex>
+                  </Text>
+                  <Text as='div' color='gray' size='3'>
+                    <Flex>
                   <Text as='div' color='gray' size='3'>
                     <Text className='pr-5'>Move 1:</Text>
                     {pokemon?.move1?.map((move) => (
