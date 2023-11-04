@@ -32,6 +32,14 @@ const Items = ({ pokemons }: Props) => {
               {pokemon.name[0].toUpperCase() + pokemon.name.slice(1)}{" "}
             </Heading>
           </Flex>
+          <Grid gap='5' columns='1'>
+      {pokemons?.map((pokemon) => (
+        <Box key={pokemon.id} className='my-2'>
+          <Flex className='pb-2'>
+            <Heading size='6' weight='bold' className='py-1'>
+              {<pokemon className="setname"></pokemon>[0].toUpperCase() + <pokemon className="setname"></pokemon>.slice(1)}{" "}
+            </Heading>
+          </Flex>
 
           <Card variant='surface' className='px-3 pt-2'>
             <Box className='sm:flex block items-center gap-6'>
