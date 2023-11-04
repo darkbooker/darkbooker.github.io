@@ -15,9 +15,13 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const gradientBackground = {
+    background: 'linear-gradient(to bottom, #ff0000, #000000)', // Red to Black gradient
+  };
+
   return (
     <html lang='en'>
-      <body className={inter.className}>
+      <body className={inter.className} style={gradientBackground}> {/* Apply the gradient style here */}
         <Theme appearance='dark'>
           <Box>
             <Container className='px-2'>
@@ -35,3 +39,4 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
+
