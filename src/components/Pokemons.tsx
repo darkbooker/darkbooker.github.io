@@ -4,7 +4,6 @@ import Image from "next/image";
 type Pokemon = {
   id: string;
   name: string;
-  setname: string
   ability: string;
   nature: string;
   naturedescription: string;
@@ -36,32 +35,16 @@ const Items = ({ pokemons }: Props) => {
           <Card variant='surface' className='px-3 pt-2'>
             <Box className='sm:flex block items-center gap-6'>
               <Box className='sm:pb-0 pb-2 '>
-                {/* Display the setname above the image */}
-                <Text as='div' color='gray' size='3' className='text-[#9E9EFF] pb-1'>
-                  {pokemon.setname[0].toUpperCase() + pokemon.setname.slice(1)}
-                </Text>
                 <Image
                   alt={`image of ${pokemon.name}`}
                   src={`https://bzgzlhdowumbsdyxqlso.supabase.co/storage/v1/object/public/pokemonimages/${pokemon.image}`}
-                  width={64}
-                  height={64}
+                  width={150}
+                  height={150}
                   className='rounded'
                 />
               </Box>
               <Grid columns={{ initial: "1", md: "2" }} className='grid w-full'>
                 <Box>
-                </Flex>
-                  </Text>
-                  <Text as='div' color='gray' size='3'>
-                    <Flex>
-                      <div className='w-16'>Ability:</div>
-                      <Text className='text-[#9E9EFF] pl-3'>
-                        {pokemon.ability[0].toUpperCase() + pokemon.ability.slice(1)}
-                      </Text>
-                    </Flex>
-                  </Text>
-                  <Text as='div' color='gray' size='3'>
-                    <Flex>
                   <Text as='div' color='gray' size='3'>
                     <Text className='pr-5'>Move 1:</Text>
                     {pokemon?.move1?.map((move) => (

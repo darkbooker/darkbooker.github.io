@@ -22,7 +22,7 @@ const PokemonPage = async ({ params: { pokemon } }: Params) => {
   );
   const { data: pokemonData } = await supabase
     .from("pokemons")
-    .select("id,name,setname,ability,move1,move2,move3,move4,nature,EVs,item,naturedescription,movesdescription,image")
+    .select("id,name,ability,move1,move2,move3,move4,nature,EVs,item,naturedescription,movesdescription,image")
     .eq("name", pokemon.toLowerCase());
   return (
     <Box className=''>
