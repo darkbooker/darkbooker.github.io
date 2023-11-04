@@ -12,7 +12,7 @@ type Pokemon = {
   move2: string[];
   move3: string[];
   move4: string[];
-  EVs: number[];
+  EVs: string;
   item: string[];
   image: string;
 };
@@ -138,9 +138,7 @@ const Items = ({ pokemons }: Props) => {
                   <Text as='div' color='gray' size='3'>
                     <Flex>
                       <div className='w-16'>EVs:</div>
-                      <div className='pl-3'>
-                        {pokemon.EVs[0]} HP / {pokemon.EVs[1]} Def / {pokemon.EVs[2]} SpD
-                      </div>
+                      <div className='pl-3'>{pokemon.EVs}</div>
                     </Flex>
                   </Text>
                 </Box>
@@ -148,7 +146,7 @@ const Items = ({ pokemons }: Props) => {
             </Box>
             <Box className='my-4'>
               <Heading className='py-2' size='5'>
-                Moves
+                Description
               </Heading>
               <Text color='gray' size='3'>
                 {pokemon.movesdescription}
