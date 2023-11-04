@@ -37,7 +37,7 @@ const Items = ({ pokemons }: Props) => {
               <Box className='sm:pb-0 pb-2 '>
                 <Image
                   alt={`image of ${pokemon.name}`}
-                  src={`https://pqnhbsrkbqxljmqyrcye.supabase.co/storage/v1/object/public/pokemonimages/${pokemon.image}`}
+                  src={`https://bzgzlhdowumbsdyxqlso.supabase.co/storage/v1/object/public/pokemonimages/${pokemon.image}`}
                   width={150}
                   height={150}
                   className='rounded'
