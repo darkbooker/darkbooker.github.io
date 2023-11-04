@@ -4,6 +4,7 @@ import Image from "next/image";
 type Pokemon = {
   id: string;
   name: string;
+  setname: string;
   ability: string;
   nature: string;
   naturedescription: string;
