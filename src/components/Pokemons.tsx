@@ -4,7 +4,7 @@ import Image from "next/image";
 type Pokemon = {
   id: string;
   name: string;
-  setname: string;
+  setname: string
   ability: string;
   nature: string;
   naturedescription: string;
@@ -29,7 +29,7 @@ const Items = ({ pokemons }: Props) => {
         <Box key={pokemon.id} className='my-2'>
           <Flex className='pb-2'>
             <Heading size='6' weight='bold' className='py-1'>
-              {pokemon.name[0].toUpperCase() + pokemon.name.slice(1)}{" "}
+              {pokemon.name[0].toUpperCase() + pokemon.name.slice(1)} {pokemon.setname} {/* Added setname */}
             </Heading>
           </Flex>
 
