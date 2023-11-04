@@ -23,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Container className='px-2'>
               <Heading className='py-2'>
                 <Link href='/' className='text-white no-underline'>
-                  Pokemon Searcher
+                  Radical Red Movesets
                 </Link>
               </Heading>
               <SearchComponent />
