@@ -3,3 +3,5 @@
 </p>
 
 <h1 align="center">Welcome to the Radical Red Movesets Database</h1>
+
+- Report Mistakes in the Documentation-Reports channel in the Radical Red Discord Server!
