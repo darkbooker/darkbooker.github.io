@@ -1,2 +1,3 @@
-- ![fluttermane](https://i.ibb.co/hBRZ0h5/flutter.png) Added Flutter Mane.
-- ![ironhands](https://i.ibb.co/KNvwMgm/ironhands.png) Added Iron Hands.
+# Welcome to the Radical Red Movesets Database
+
+![Radical Red Logo](https://cdn2.steamgriddb.com/file/sgdb-cdn/logo_thumb/89c30ca363566155b1dec2102063c957.png)
