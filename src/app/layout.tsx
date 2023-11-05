@@ -18,12 +18,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang='en'>
       <body className={inter.className}>
-        <Theme appearance='dark'>
+        <Theme appearance='dark' accentColor='red' grayColor='auto'>
           <Box>
             <Container className='px-2'>
               <Heading className='py-2'>
                 <Link href='/' className='text-white no-underline '>
-                  Radical Red Movesets
+                  Radical <span className='text-[#A93226]'>Red</span> Movesets
                 </Link>
               </Heading>
               <SearchComponent />

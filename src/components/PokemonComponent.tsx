@@ -24,7 +24,7 @@ const PokemonComponent = ({ pokemon }: Props) => {
               {pokemon.setname[variation]}
             </Text>
           </div>
-          {/* <hr className='mb-5 w-5' /> */}
+          <hr className='mb-5 w-5  ' />
           <Box className='sm:flex block items-center gap-6'>
             <Box className='sm:pb-0 pb-2 '>
               <Image
@@ -41,7 +41,7 @@ const PokemonComponent = ({ pokemon }: Props) => {
                   <Text as='div' color='gray' size='3' key={moves.indexOf(move)}>
                     <Text className='pr-5'>Move {moves.indexOf(move) + 1}:</Text>
                     <Text>
-                      <Text className='text-[#9E9EFF]'>{move[variation]}</Text>
+                      <Text className='text-rose-300'>{move[variation]}</Text>
                     </Text>
                   </Text>
                 ))}
@@ -52,7 +52,7 @@ const PokemonComponent = ({ pokemon }: Props) => {
                     <div className='w-16'>Item:</div>
 
                     <Text className='pl-3'>
-                      <Text className='text-[#9E9EFF]'>
+                      <Text className='text-rose-300'>
                         {pokemon.item[variation][0].toUpperCase() + pokemon.item[variation].slice(1)}
                       </Text>
                     </Text>
@@ -61,7 +61,7 @@ const PokemonComponent = ({ pokemon }: Props) => {
                 <Text as='div' color='gray' size='3'>
                   <Flex>
                     <div className='w-16'>Ability:</div>
-                    <Text className='text-[#9E9EFF] pl-3'>
+                    <Text className='text-rose-300 pl-3'>
                       {pokemon.ability[variation][0].toUpperCase() + pokemon.ability[variation].slice(1)}
                     </Text>
                   </Flex>

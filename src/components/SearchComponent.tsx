@@ -75,8 +75,8 @@ export default function SearchComponent() {
 
   return (
     <Box className='mb-10'>
-      <form onSubmit={handleSubmit} className='py-2'>
-        <TextField.Root>
+      <form onSubmit={handleSubmit} className='py-2 !focus:border-[#A93226] border'>
+        <TextField.Root className=''>
           <TextField.Slot>
             <MagnifyingGlassIcon height='16' width='16' />
           </TextField.Slot>
@@ -87,7 +87,7 @@ export default function SearchComponent() {
             placeholder='Search...'
             value={search}
           />
-          <Button type='submit' variant='solid'>
+          <Button type='submit' variant='solid' className='!bg-[#A93226]'>
             Search
           </Button>
         </TextField.Root>
