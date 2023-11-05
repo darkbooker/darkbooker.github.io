@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Box>
             <Container className='px-2'>
               <Heading className='py-2'>
-                <Link href='/' className='text-white no-underline'>
+                <Link href='/' className='text-white no-underline '>
                   Radical Red Movesets
                 </Link>
               </Heading>

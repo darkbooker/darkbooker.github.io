@@ -19,18 +19,17 @@ const PokemonComponent = ({ pokemon }: Props) => {
       </Flex>
       {variations.map((variation) => (
         <Card variant='surface' className='px-3 pt-2 mb-8' key={variation}>
-          <div className='flex justify-center pb-1'>
-            <Text size='6' weight='bold'>
+          <div className='flex justify-center mb-3'>
+            <Text size='7' weight='bold'>
               {pokemon.setname[variation]}
             </Text>
           </div>
-          <hr className='mb-5 ' />
+          {/* <hr className='mb-5 w-5' /> */}
           <Box className='sm:flex block items-center gap-6'>
             <Box className='sm:pb-0 pb-2 '>
               <Image
                 alt={`image of ${pokemon.name}`}
-                // src={`https://bzgzlhdowumbsdyxqlso.supabase.co/storage/v1/object/public/pokemonimages/${pokemon.image}`}
-                src={`https://pqnhbsrkbqxljmqyrcye.supabase.co/storage/v1/object/public/pokemonimages/${pokemon.image}`}
+                src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/pokemonimages/${pokemon.image}`}
                 width={64}
                 height={64}
                 className='rounded'
