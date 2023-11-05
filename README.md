@@ -1,2 +1,2 @@
-- ![Added Flutter Mane.](https://i.ibb.co/hBRZ0h5/flutter.png)
-- Added Iron Hands.
+- ![fluttermane](https://i.ibb.co/hBRZ0h5/flutter.png) Added Flutter Mane.
+- ![ironhands](https://i.ibb.co/KNvwMgm/ironhands.png) Added Iron Hands.
