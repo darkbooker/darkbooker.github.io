@@ -1,5 +1,5 @@
 "use client";
-import { Box, Text, Card, Flex, Heading, Grid, HoverCard, AspectRatio } from "@radix-ui/themes";
+import { Grid } from "@radix-ui/themes";
 import PokemonComponent from "./PokemonComponent";
 import { Pokemon } from "@/types/pokemon";
 
