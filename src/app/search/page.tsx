@@ -24,7 +24,9 @@ const Page = async ({ searchParams: { q } }: Props) => {
   );
   const { data: pokemons } = await supabase
     .from("pokemons")
-    .select("id,name,ability,move1,move2,move3,move4,nature,EVs,item, naturedescription, movesdescription,image")
+    .select(
+      "id,name,ability,move1,move2,move3,move4,nature,EVs,item, naturedescription, movesdescription,image,setname, setcount"
+    )
     .ilike("name", `%${q}%`);
 
   return (

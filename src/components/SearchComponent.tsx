@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from "react";
+"use client";
+import React, { useState, useEffect, useDeferredValue } from "react";
 import { MagnifyingGlassIcon } from "@radix-ui/react-icons";
 import { Box, TextField, Button } from "@radix-ui/themes";
-import { useRouter } from "next/router";
-import { createBrowserClient } from "@supabase/supabase-js";
+import { useRouter } from "next/navigation";
+import { createBrowserClient } from "@supabase/ssr";
 
-type Pokemon = {
+type PokemonName = {
   id: string;
   name: string;
 };
@@ -17,7 +18,7 @@ export default function SearchComponent() {
   const router = useRouter();
   const [search, setSearch] = useState("");
   const defferedSearch = useDeferredValue(search);
-  const [pokemons, setPokemons] = useState<Pokemon[] | null>(null);
+  const [pokemons, setPokemons] = useState<PokemonName[] | null>(null);
   const [highlightedOption, setHighlightedOption] = useState(-1);
 
   const handleChange = async (value: string) => {
@@ -73,43 +74,42 @@ export default function SearchComponent() {
   }, [supabase, defferedSearch]);
 
   return (
-    <Box className="mb-10">
-      <form onSubmit={handleSubmit} className="py-2">
+    <Box className='mb-10'>
+      <form onSubmit={handleSubmit} className='py-2'>
         <TextField.Root>
           <TextField.Slot>
-            <MagnifyingGlassIcon height="16" width="16" />
+            <MagnifyingGlassIcon height='16' width='16' />
           </TextField.Slot>
           <TextField.Input
             onChange={(e) => handleChange(e.target.value)}
             onKeyDown={handleKeyDown}
             onFocus={handleFocus}
-            placeholder="Search..."
+            placeholder='Search...'
             value={search}
           />
-          <Button type="submit" variant="solid">
+          <Button type='submit' variant='solid'>
             Search
           </Button>
         </TextField.Root>
         {search && (
-          <Box className="rounded-b-md rounded-bl-md relative w-full shadow-lg z-10">
-            <Box className="absolute bg-[#17191a] rounded-b-md rounded-bl-md py-1 w-full ">
-              {pokemons
-                ?.map((pokemon: Pokemon, index) => (
-                  <Box
-                    className={`py-1 px-8 ${
-                      index === highlightedOption
-                        ? "hover:bg-slate-700 active:bg-slate-600 opacity-80 rounded-b-md rounded-bl-md"
-                        : ""
-                    }`}
-                    key={pokemon.id}
-                    onClick={() => {
-                      router.push(`/${pokemon.name.toLowerCase()}`);
-                      setSearch("");
-                    }}
-                  >
-                    {pokemon.name[0].toUpperCase() + pokemon.name.slice(1)}
-                  </Box>
-                ))}
+          <Box className='rounded-b-md rounded-bl-md relative w-full shadow-lg z-10'>
+            <Box className='absolute bg-[#17191a] rounded-b-md rounded-bl-md py-1 w-full '>
+              {pokemons?.map((pokemon: PokemonName, index) => (
+                <Box
+                  className={`py-1 px-8 ${
+                    index === highlightedOption
+                      ? "hover:bg-slate-700 active:bg-slate-600 opacity-80 rounded-b-md rounded-bl-md"
+                      : ""
+                  }`}
+                  key={pokemon.id}
+                  onClick={() => {
+                    router.push(`/${pokemon.id}`);
+                    setSearch("");
+                  }}
+                >
+                  {pokemon.name[0].toUpperCase() + pokemon.name.slice(1)}
+                </Box>
+              ))}
             </Box>
           </Box>
         )}
