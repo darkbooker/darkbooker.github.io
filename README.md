@@ -1,4 +1,4 @@
-## Welcome to the Radical Red Movesets Database!
+<img src="https://i.ibb.co/G5VcKdJ/download.png" alt="" width="64" height="64"> ## Welcome to the Radical Red Movesets Database! <img src="https://i.ibb.co/G5VcKdJ/download.png" alt="" width="64" height="64">
 ### _Report Mistakes in the Documentation-Reports channel in the Radical Red Discord Server._
 
 ### 11/5/23
