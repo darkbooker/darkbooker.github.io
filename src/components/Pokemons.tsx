@@ -1,6 +1,6 @@
-"use client";
-import { Box, Text, Card, Flex, Heading, Grid, HoverCard, AspectRatio } from "@radix-ui/themes";
+import { Box, Text, Card, Flex, Heading, Grid, HoverCard } from "@radix-ui/themes";
 import Image from "next/image";
+
 type Pokemon = {
   id: string;
   name: string;
@@ -32,9 +32,15 @@ const Items = ({ pokemons }: Props) => {
             </Heading>
           </Flex>
 
-          <Card variant='surface' className='px-3 pt-2'>
+          <Card
+            variant='surface'
+            className='px-3 pt-2'
+            style={{
+              background: 'linear-gradient(to right, #111113, #C14848)', // Replace with your desired gradient
+            }}
+          >
             <Box className='sm:flex block items-center gap-6'>
-              <Box className='sm:pb-0 pb-2 '>
+              <Box className='sm:pb-0 pb-2'>
                 <Image
                   alt={`image of ${pokemon.name}`}
                   src={`https://bzgzlhdowumbsdyxqlso.supabase.co/storage/v1/object/public/pokemonimages/${pokemon.image}`}
@@ -158,4 +164,5 @@ const Items = ({ pokemons }: Props) => {
     </Grid>
   );
 };
+
 export default Items;
