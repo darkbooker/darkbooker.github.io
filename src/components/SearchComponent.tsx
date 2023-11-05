@@ -53,7 +53,7 @@ export default function SearchComponent() {
           break;
         case "Enter":
           if (highlightedOption !== -1) {
-            router.push(`/${pokemons[highlightedOption].name.toLowerCase()}`);
+            router.push(`/${pokemons[highlightedOption].id}.name.toLowerCase()}`);
             setSearch("");
           }
           break;
