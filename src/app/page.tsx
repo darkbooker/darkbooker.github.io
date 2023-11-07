@@ -17,10 +17,20 @@ const Page = async () => {
     .use(rehypeStringify) // Convert AST into serialized HTML
     .process(fileContents);
   const html = String(file);
+  
+  // Center the content with CSS
+  const centerStyle = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100vh', // Center vertically within the viewport
+  };
+
   return (
-    <Box className='py-3'>
+    <Box className='py-3' style={centerStyle}>
       <div dangerouslySetInnerHTML={{ __html: html }} />
     </Box>
   );
 };
+
 export default Page;
