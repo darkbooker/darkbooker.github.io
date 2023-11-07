@@ -24,7 +24,7 @@ const Homepage = () => {
       </Grid>
 
       <Box style={{ padding: 20, backgroundColor: 'lightgray' }}>
-        <Heading size={4}>Welcome to the Radical Red Movesets Database!</Heading>
+        <Heading size="4">Welcome to the Radical Red Movesets Database!</Heading>
       </Box>
 
       <Box style={{ padding: 20, backgroundColor: 'lightgray' }}>
