@@ -6,13 +6,14 @@ import rehypeSanitize from "rehype-sanitize";
 import rehypeStringify from "rehype-stringify";
 import path from "path";
 import fs from "fs";
+import remarkGfm from "remark-gfm";
 
 const Page = async () => {
   const fullPath = path.resolve(process.cwd(), "README.md");
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const file = await unified()
     .use(remarkParse) // Convert into markdown AST
-    .use(remark-gfm)
+    .use(remarkGfm)
     .use(remarkRehype) // Transform to HTML AST
     .use(rehypeSanitize) // Sanitize HTML input
     .use(rehypeStringify) // Convert AST into serialized HTML
