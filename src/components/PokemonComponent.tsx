@@ -9,18 +9,18 @@ interface Props {
 
 const PokemonComponent = ({ pokemon }: Props) => {
   const variations = Array.from(Array(pokemon.setcount).keys());
-  const moves = [pokemon.move1, pokemon.move2, pokemon.move3, pokemon.move4];
+  const moves = [pokemon.move1, pokemon.move2, pokemon move3, pokemon.move4];
 
   return (
     <Box key={pokemon.id} className='my-2'>
       {variations.map((variation) => (
-        <Card variant='surface' className='px-3 pt-2 mb-8' key={variation}>
+        <div key={variation} className='my-2'>
+          {/* Display Pokémon name and image outside of the Card */}
           <Flex className='pb-2'>
             <Heading size='6' weight='bold' className='py-1'>
               {pokemon.name[0].toUpperCase() + pokemon.name.slice(1)}{" "}
             </Heading>
           </Flex>
-
           <div className='flex justify-center mb-3'>
             <Image
               alt={`image of ${pokemon.name}`}
@@ -31,7 +31,8 @@ const PokemonComponent = ({ pokemon }: Props) => {
             />
           </div>
 
-          <hr className='mb-5 w-5' />
+          <Card variant='surface' className='px-3 pt-2 mb-8'>
+            <hr className='mb-5 w-5' />
 
           <Grid columns={{ initial: "1", md: "2" }} className='grid w-full'>
             <Box>
