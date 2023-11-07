@@ -10,8 +10,8 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Pokemon Searcher",
-  description: "Find your pokemon and get the moveset!",
+  title: "Radical Red Moveset Database",
+  description: "Search Radical Red Movesets.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

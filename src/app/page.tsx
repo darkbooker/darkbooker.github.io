@@ -18,15 +18,13 @@ const Page = async () => {
     .process(fileContents);
   const html = String(file);
 
-  // Center the content both horizontally and vertically with CSS
+  // Center the content both horizontally and vertically with CSS Flexbox
   const centerStyle = {
-    display: 'block',      // Use 'block' display property
-    width: '100%',         // Make the container take up the full width
-    textAlign: 'center',   // Center text horizontally
-    position: 'relative',  // Position the container relatively
-    top: '50%',            // Center vertically (relative to its container)
-    transform: 'translateY(-50%)', // Correct for vertical centering
-    minHeight: '100vh',     // Ensure the container takes up at least the full viewport height
+    display: 'flex',        // Use 'flex' display property
+    flexDirection: 'column', // Stack items vertically
+    justifyContent: 'center', // Center horizontally
+    alignItems: 'center',    // Center vertically
+    minHeight: '100vh',      // Ensure the container takes up at least the full viewport height
   };
 
   return (
