@@ -21,7 +21,7 @@ const PokemonComponent = ({ pokemon }: Props) => {
 
       {/* Display the author property below the Pokémon name */}
       <Text color='gray' size='3'>
-        By - {pokemon.author}
+        Author: {pokemon.author}
       </Text>
 
       {variations.map((variation) => (
