@@ -1,21 +1,31 @@
 import { Box } from "@radix-ui/themes";
 
+const containerStyle = {
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "center",
+  justifyContent: "center",
+  height: "100vh", // Centers vertically within the viewport
+};
+
 const Page = () => {
   return (
-    <Box className="py-3">
-      <div>
+    <div style={containerStyle}>
+      <Box className="py-3">
+        <div>
         <img src="https://i.ibb.co/G5VcKdJ/download.png" alt="houndoom" />
-        <img src="image2.jpg" alt="Image 2" />
-        <img src="image3.jpg" alt="Image 3" />
-        <img src="image4.jpg" alt="Image 4" />
-        <img src="image5.jpg" alt="Image 5" />
-        <img src="image6.jpg" alt="Image 6" />
-        <img src="image7.jpg" alt="Image 7" />
-        <img src="image8.jpg" alt="Image 8" />
-      </div>
-      <div>Welcome to the Radical Red Movesets Database!</div>
-      <div>Report Mistakes in the Documentation-Reports channel in the Radical Red Discord Server.</div>
-    </Box>
+        <img src="https://i.ibb.co/8dKTmfq/download-1.png" alt="sceptile" />
+        <img src="https://i.ibb.co/XJtJ8xs/download.png" alt="ironbundle" />
+        <img src="https://i.ibb.co/dtgsyvv/dialga.png" alt="dialga" />
+        <img src="https://i.ibb.co/0VRXbqw/drednaw.png" alt="drednaw" />
+        <img src="https://i.ibb.co/hHyQd5B/noivern.png" alt="noivern" />
+        <img src="https://i.ibb.co/Jt3TJ05/pikachu.png" alt="pikachu" />
+        <img src="https://i.ibb.co/xMRT3T7/toxicroak.png" alt="toxicroak" />
+        </div>
+        <div>Welcome to the Radical Red Movesets Database!</div>
+        <div>Report Mistakes in the Documentation-Reports channel in the Radical Red Discord Server.</div>
+      </Box>
+    </div>
   );
 };
 
