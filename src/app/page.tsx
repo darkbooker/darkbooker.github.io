@@ -6,7 +6,7 @@ const Homepage = () => {
     <div className="homepage">
       {/* Grid for Images */}
       <Grid
-        css={{
+        style={{
           gap: 20,
           gridTemplateColumns: 'repeat(4, 1fr)',
           alignItems: 'center',
@@ -23,11 +23,11 @@ const Homepage = () => {
         <img src="https://i.ibb.co/xMRT3T7/toxicroak.png" alt="toxicroak" />
       </Grid>
 
-      <Box css={{ padding: 20, backgroundColor: 'black' }}>
-        <Heading size={15}>Welcome to the Radical Red Movesets Database!</Heading>
+      <Box style={{ padding: 20, backgroundColor: 'lightgray' }}>
+        <Heading size={4}>Welcome to the Radical Red Movesets Database!</Heading>
       </Box>
 
-      <Box css={{ padding: 20, backgroundColor: 'black' }}>
+      <Box style={{ padding: 20, backgroundColor: 'lightgray' }}>
         <Text>
           Report Mistakes in the Documentation-Reports channel in the Radical Red Discord Server.
         </Text>
