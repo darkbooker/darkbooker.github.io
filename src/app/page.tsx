@@ -1,41 +1,41 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Radical Red Movesets Database</title>
-    <style>
-        body {
-            text-align: center; /* Center horizontally */
-            margin: 20px auto; /* Margin at the top to center vertically */
-            max-width: 800px; /* Optional: Set a maximum width for content */
-        }
+import { createServerClient, type CookieOptions } from "@supabase/ssr";
+import { cookies } from "next/headers";
+import { Box, Text } from "@radix-ui/themes";
+import Pokemons from "@/components/Pokemons";
 
-        #header {
-            text-align: center; /* Center the text within the header */
-        }
+interface Props {
+  searchParams: {
+    q?: string;
+  };
+}
 
-        #image-container {
-            display: flex;
-            justify-content: center; /* Center the images horizontally within the container */
-        }
-    </style>
-</head>
-<body>
-    <div id="header">
-        <!-- First Line: 8 Images -->
-        <div id="image-container">
-            <img src="https://i.ibb.co/G5VcKdJ/download.png" alt="houndoom" />
-            <img src="https://i.ibb.co/8dKTmfq/download-1.png" alt="sceptile" />
-            <img src="https://i.ibb.co/XJtJ8xs/download.png" alt="ironbundle" />
-            <img src="https://i.ibb.co/dtgsyvv/dialga.png" alt="dialga" />
-            <img src="https://i.ibb.co/0VRXbqw/drednaw.png" alt="drednaw" />
-            <img src="https://i.ibb.co/hHyQd5B/noivern.png" alt="noivern" />
-            <img src="https://i.ibb.co/Jt3TJ05/pikachu.png" alt="pikachu" />
-            <img src="https://i.ibb.co/xMRT3T7/toxicroak.png" alt="toxicroak" />
-        </div>
-        <!-- Second Line: Welcome Message -->
-        <h1>Welcome to the Radical Red Movesets Database!</h1>
-        <!-- Third Line: Reporting Instructions -->
-        <p>Report Mistakes in the Documentation-Reports channel in the Radical Red Discord Server.</p>
-    </div>
-</body>
-</html>
+const Page = async ({ searchParams: { q } }: Props) => {
+  const cookieStore = cookies();
+  const supabase = createServerClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    {
+      cookies: {
+        get(name: string) {
+          return cookieStore.get(name)?.value;
+        },
+      },
+    }
+  );
+  const { data: pokemons } = await supabase
+    .from("pokemons")
+    .select(
+      "id,name,ability,move1,move2,move3,move4,nature,EVs,item, naturedescription, movesdescription,image,setname, setcount"
+    )
+    .ilike("name", `%${q}%`);
+
+  return (
+    <Box className=''>
+      <Text as='div' className='pb-5'>
+        Search results for &quot;{q}&quot;
+      </Text>
+      <Pokemons pokemons={pokemons} />
+    </Box>
+  );
+};
+export default Page;
