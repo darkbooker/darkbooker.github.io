@@ -4,7 +4,8 @@
 
 <sup>──────────<sup>
 
-_Falkner Strategies_
+<sub>Falkner Strategies<sub>
 
-![Falkner](https://play.pokemonshowdown.com/sprites/trainers/falkner.png)
-
+![Falkner](https://play.pokemonshowdown.com/sprites/trainers/falkner.png) vs <a href="https://darkbooker-github-io.vercel.app/76/">
+  <img src="https://i.ibb.co/rMWWDns/kricketune.png" alt="Description of the image">
+</a>
