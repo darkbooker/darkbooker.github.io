@@ -1,40 +1,25 @@
-import { createServerClient, type CookieOptions } from "@supabase/ssr";
-import { cookies } from "next/headers";
-import { Box, Text } from "@radix-ui/themes";
-import Pokemons from "@/components/Pokemons";
+import { Box } from "@radix-ui/themes";
+import { unified } from "unified";
+import remarkParse from "remark-parse";
+import remarkRehype from "remark-rehype";
+import rehypeSanitize from "rehype-sanitize";
+import rehypeStringify from "rehype-stringify";
+import path from "path";
+import fs from "fs";
 
-interface Props {
-  searchParams: {
-    q?: string;
-  };
-}
-
-const Page = async ({ searchParams: { q } }: Props) => {
-  const cookieStore = cookies();
-  const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
-    {
-      cookies: {
-        get(name: string) {
-          return cookieStore.get(name)?.value;
-        },
-      },
-    }
-  );
-  const { data: pokemons } = await supabase
-    .from("pokemons")
-    .select(
-      "id,name,ability,move1,move2,move3,move4,nature,EVs,item, naturedescription, movesdescription,image,setname, setcount"
-    )
-    .ilike("name", `%${q}%`);
-
+const Page = async () => {
+  const fullPath = path.resolve(process.cwd(), "README.md");
+  const fileContents = fs.readFileSync(fullPath, "utf8");
+  const file = await unified()
+    .use(remarkParse) // Convert into markdown AST
+    .use(remarkRehype) // Transform to HTML AST
+    .use(rehypeSanitize) // Sanitize HTML input
+    .use(rehypeStringify) // Convert AST into serialized HTML
+    .process(fileContents);
+  const html = String(file);
   return (
-    <Box className=''>
-      <Text as='div' className='pb-5'>
-        Search results for &quot;{q}&quot;
-      </Text>
-      <Pokemons pokemons={pokemons} />
+    <Box className='py-3'>
+      <div dangerouslySetInnerHTML={{ __html: html }} />
     </Box>
   );
 };
