@@ -7,8 +7,7 @@ import rehypeStringify from "rehype-stringify";
 
 const Page = async () => {
   const yourText = `
-    ![Image 1](image1.jpg) ![Image 2](image2.jpg) ![Image 3](image3.jpg) ![Image 4](image4.jpg)
-    ![Image 5](image5.jpg) ![Image 6](image6.jpg) ![Image 7](image7.jpg) ![Image 8](image8.jpg)
+    ![houndoom](https://i.ibb.co/G5VcKdJ/download.png) ![sceptile](https://i.ibb.co/8dKTmfq/download-1.png) ![ironbundle](https://i.ibb.co/XJtJ8xs/download.png) ![dialga](https://i.ibb.co/dtgsyvv/dialga.png)![drednaw](https://i.ibb.co/0VRXbqw/drednaw.png) ![noivern](https://i.ibb.co/hHyQd5B/noivern.png) ![pikachu](https://i.ibb.co/Jt3TJ05/pikachu.png) ![toxicroak](https://i.ibb.co/xMRT3T7/toxicroak.png)
     
     Welcome to the Radical Red Movesets Database!
     
