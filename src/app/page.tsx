@@ -12,17 +12,25 @@ const Page = async () => {
   const fullPath = path.resolve(process.cwd(), "README.md");
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const file = await unified()
-    .use(remarkParse) // Convert into markdown AST
+    .use(remarkParse)
     .use(remarkGfm)
-    .use(remarkRehype) // Transform to HTML AST
-    .use(rehypeSanitize) // Sanitize HTML input
-    .use(rehypeStringify) // Convert AST into serialized HTML
+    .use(remarkRehype)
+    .use(rehypeSanitize)
+    .use(rehypeStringify)
     .process(fileContents);
   const html = String(file);
   return (
     <Box className='py-3'>
-      <div dangerouslySetInnerHTML={{ __html: html }} />
+      <div
+        style={{
+          textAlign: 'center', // Center-align text
+          margin: '0 auto',     // Center-align the div itself
+          maxWidth: '600px'    // Optional: Set a max width for the centered content
+        }}
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
     </Box>
   );
 };
+
 export default Page;
