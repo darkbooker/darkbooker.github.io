@@ -26,6 +26,7 @@ const Page = async () => {
     position: 'absolute',  // Position the container absolutely
     top: '50%',            // Center vertically (relative to the viewport)
     transform: 'translateY(-50%)', // Correct for vertical centering
+    lineHeight: '1.5',      // Set a line-height to ensure vertical centering
   };
 
   return (
