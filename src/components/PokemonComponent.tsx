@@ -1,4 +1,4 @@
-import { Box, Text, Card, Flex, Heading, Grid, HoverCard } from "@radix-ui/themes";
+import { Box, Text, Card, Flex, Heading, Grid, HoverCard, AspectRatio } from "@radix-ui/themes";
 import Image from "next/image";
 
 import { Pokemon } from "@/types/pokemon";
@@ -8,34 +8,33 @@ interface Props {
 }
 
 const PokemonComponent = ({ pokemon }: Props) => {
-  const variations = Array.from(Array(pokemon.setcount).keys());
-  const moves = [pokemon.move1, pokemon.move2, pokemon move3, pokemon.move4];
+  const variations = Array from(Array(pokemon.setcount).keys());
+  const moves = [pokemon.move1, pokemon.move2, pokemon.move3, pokemon.move4];
 
   return (
     <Box key={pokemon.id} className='my-2'>
+      <Image
+        alt={`image of ${pokemon.name}`}
+        src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/pokemonimages/${pokemon.image}`}
+        width={64}
+        height={64}
+        className='rounded'
+      />
+      <Flex className='pb-2'>
+        <Heading size='6' weight='bold' className='py-1'>
+          {pokemon.name[0].toUpperCase() + pokemon.name.slice(1)}{" "}
+        </Heading>
+      </Flex>
       {variations.map((variation) => (
-        <div key={variation} className='my-2'>
-          {/* Display Pokémon name and image outside of the Card */}
-          <Flex className='pb-2'>
-            <Heading size='6' weight='bold' className='py-1'>
-              {pokemon.name[0].toUpperCase() + pokemon.name.slice(1)}{" "}
-            </Heading>
-          </Flex>
+        <Card variant='surface' className='px-3 pt-2 mb-8' key={variation}>
           <div className='flex justify-center mb-3'>
-            <Image
-              alt={`image of ${pokemon.name}`}
-              src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/pokemonimages/${pokemon.image}`}
-              width={64}
-              height={64}
-              className='rounded'
-            />
+            <Text size='7' weight='bold'>
+              {pokemon.setname[variation]}
+            </Text>
           </div>
-
-          <Card variant='surface' className='px-3 pt-2 mb-8'>
-            <hr className='mb-5 w-5' />
-
-          <Grid columns={{ initial: "1", md: "2" }} className='grid w-full'>
-            <Box>
+          <hr className='mb-5 w-5' />
+          <Box className='sm:flex block items-center gap-6'>
+            <Box className='sm:pb-0 pb-2'>
               {moves.map((move) => (
                 <Text as='div' color='gray' size='3' key={moves.indexOf(move)}>
                   <Text className='pr-5'>Move {moves.indexOf(move) + 1}:</Text>
@@ -45,12 +44,10 @@ const PokemonComponent = ({ pokemon }: Props) => {
                 </Text>
               ))}
             </Box>
-
             <Box>
               <Text as='div' color='gray' size='3'>
                 <Flex>
                   <div className='w-16'>Item:</div>
-
                   <Text className='pl-3'>
                     <Text className='text-rose-300'>
                       {pokemon.item[variation][0].toUpperCase() + pokemon.item[variation].slice(1)}
@@ -69,7 +66,6 @@ const PokemonComponent = ({ pokemon }: Props) => {
               <Text as='div' color='gray' size='3'>
                 <Flex>
                   <div className='w-16'>Nature:</div>
-
                   <HoverCard.Root>
                     <HoverCard.Trigger>
                       <Text className='pl-3 underline decoration-dotted underline-offset-2'>
@@ -98,8 +94,7 @@ const PokemonComponent = ({ pokemon }: Props) => {
                 </Flex>
               </Text>
             </Box>
-          </Grid>
-
+          </Box>
           <Box className='my-4'>
             <Heading className='py-2' size='5'>
               Description
