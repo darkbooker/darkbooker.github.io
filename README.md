@@ -2,7 +2,11 @@
 ## Welcome to the Radical Red Moveset Database!
 <sup>_Report Mistakes in the Documentation-Reports channel in the Radical Red Discord._<sup>
 
+
+
 <sup>──────────<sup>
+
+
 
 <sub>Falkner Strategies<sub>
 
