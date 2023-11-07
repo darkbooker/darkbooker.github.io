@@ -22,7 +22,7 @@ const Page = async () => {
   const centerStyle = {
     display: 'flex',
     justifyContent: 'center', // Center horizontally
-    alignItems: 'center', // Center vertically
+    alignItems: 'flex-start', // Center vertically
     height: '100vh', // Take up the full viewport height
   };
 
