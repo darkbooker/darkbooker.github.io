@@ -15,8 +15,8 @@ const Page = () => {
           <img src="https://i.ibb.co/xMRT3T7/toxicroak.png" alt="toxicroak" />
         </div>
       </div>
-      <div>Welcome to the Radical Red Movesets Database!</div>
-      <div>Report Mistakes in the Documentation-Reports channel in the Radical Red Discord Server.</div>
+      <div style="font-weight: bold; font-size: 18px;">Welcome to the Radical Red Movesets Database!</div>
+<div style="font-style: italic; font-size: 10px;">Report Mistakes in the Documentation-Reports channel in the Radical Red Discord Server.</div>
     </Box>
   );
 };
