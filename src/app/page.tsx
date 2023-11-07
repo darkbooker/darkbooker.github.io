@@ -1,43 +1,31 @@
 import { Box } from "@radix-ui/themes";
 import { unified } from "unified";
+import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
 import rehypeSanitize from "rehype-sanitize";
 import rehypeStringify from "rehype-stringify";
-import React from "react";
 
 const Page = async () => {
-  // Define your custom content with 8 images in the first line and text on the second and third lines
-  const customContent = `
-    <img src="image1.jpg" alt="Image 1" />
-    <img src="image2.jpg" alt="Image 2" />
-    <img src="image3.jpg" alt="Image 3" />
-    <img src="image4.jpg" alt="Image 4" />
-    <img src="image5.jpg" alt="Image 5" />
-    <img src="image6.jpg" alt="Image 6" />
-    <img src="image7.jpg" alt="Image 7" />
-    <img src="image8.jpg" alt="Image 8" />
-    <p>Welcome to the Radical Red Movesets Database!</p>
-    <p>Report Mistakes in the Documentation-Reports channel in the Radical Red Discord Server.</p>
+  const yourText = `
+    ![Image 1](image1.jpg) ![Image 2](image2.jpg) ![Image 3](image3.jpg) ![Image 4](image4.jpg)
+    ![Image 5](image5.jpg) ![Image 6](image6.jpg) ![Image 7](image7.jpg) ![Image 8](image8.jpg)
+    
+    Welcome to the Radical Red Movesets Database!
+    
+    Report Mistakes in the Documentation-Reports channel in the Radical Red Discord Server.
   `;
 
   const file = await unified()
+    .use(remarkParse) // Convert into markdown AST
     .use(remarkRehype) // Transform to HTML AST
     .use(rehypeSanitize) // Sanitize HTML input
     .use(rehypeStringify) // Convert AST into serialized HTML
-    .process(customContent);
+    .process(yourText);
+
   const html = String(file);
 
-  // Center the content both horizontally and vertically with CSS Flexbox
-  const centerStyle = {
-    display: 'flex',        // Use 'flex' display property
-    flexDirection: 'column', // Stack items vertically
-    justifyContent: 'center', // Center horizontally
-    alignItems: 'center',    // Center vertically
-    minHeight: '100vh',      // Ensure the container takes up at least the full viewport height
-  };
-
   return (
-    <Box className='py-3' style={centerStyle}>
+    <Box className='py-3'>
       <div dangerouslySetInnerHTML={{ __html: html }} />
     </Box>
   );
