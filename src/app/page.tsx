@@ -12,6 +12,7 @@ const Page = async () => {
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const file = await unified()
     .use(remarkParse) // Convert into markdown AST
+    .use(remark-gfm)
     .use(remarkRehype) // Transform to HTML AST
     .use(rehypeSanitize) // Sanitize HTML input
     .use(rehypeStringify) // Convert AST into serialized HTML
