@@ -27,9 +27,9 @@ const PokemonComponent = ({ pokemon }: Props) => {
             </Text>
           </div>
 
-          <div className="text-center">
-            <Text color='gray' size='3'>
-              By - {pokemon.author}
+          <div className='text-center'>
+            <Text color='gray' size='2'>
+              <i>By -</i> {pokemon.author}
             </Text>
           </div>
 
