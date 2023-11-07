@@ -1,11 +1,12 @@
 import { Box } from "@radix-ui/themes";
+import { FlexDirection } from "@radix-ui/css";
 
 const containerStyle = {
   display: "flex",
-  flexDirection: "column",
+  flexDirection: FlexDirection.Column,
   alignItems: "center",
   justifyContent: "center",
-  height: "100vh", // Centers vertically within the viewport
+  height: "100vh",
 };
 
 const Page = () => {
