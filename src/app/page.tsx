@@ -18,16 +18,16 @@ const Page = async () => {
     .process(fileContents);
   const html = String(file);
   
-  // Center the content with CSS
-  const centerStyle = {
+  // Center the content at the top with CSS
+  const topCenterStyle = {
     display: 'flex',
     justifyContent: 'center',
-    alignItems: 'center',
-    height: '100vh', // Center vertically within the viewport
+    alignItems: 'flex-start', // Align to the top
+    height: '100vh', // Take up the full viewport height
   };
 
   return (
-    <Box className='py-3' style={centerStyle}>
+    <Box className='py-3' style={topCenterStyle}>
       <div dangerouslySetInnerHTML={{ __html: html }} />
     </Box>
   );
