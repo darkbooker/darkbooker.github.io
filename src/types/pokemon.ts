@@ -14,4 +14,5 @@ export type Pokemon = {
   image: string;
   setname: string[];
   setcount: number;
+  author: string[];
 };

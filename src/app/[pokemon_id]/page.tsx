@@ -23,7 +23,7 @@ const PokemonPage = async ({ params: { pokemon_id } }: Params) => {
   const { data: pokemonData } = await supabase
     .from("pokemons")
     .select(
-      "id,name,ability,move1,move2,move3,move4,nature,EVs,item,naturedescription,movesdescription,image, setname, setcount"
+      "id,name,ability,move1,move2,move3,move4,nature,EVs,item,naturedescription,movesdescription,image, setname, setcount, author"
     )
     .eq("id", pokemon_id);
   return (
