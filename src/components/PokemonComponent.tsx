@@ -26,11 +26,13 @@ const PokemonComponent = ({ pokemon }: Props) => {
               {pokemon.setname[variation]}
             </Text>
           </div>
-          
-          {/* Display the author property under setname within the Card */}
-          <Text color='gray' size='3'>
-            By - {pokemon.author}
-          </Text>
+
+          <div className="text-center">
+            <Text color='gray' size='3'>
+              By - {pokemon.author}
+            </Text>
+          </div>
+
           <hr className='mb-5 w-5  ' />
           <Box className='sm:flex block items-center gap-6'>
             <Box className='sm:pb-0 pb-2 '>
