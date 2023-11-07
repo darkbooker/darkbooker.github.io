@@ -38,7 +38,7 @@ const PokemonComponent = ({ pokemon }: Props) => {
 
           <div className='text-center'>
             <Text color='gray' size='2'>
-              <i>- By</i> {pokemon.author}
+              <i>- By</i> {pokemon.author[variation]}
             </Text>
           </div>
 
