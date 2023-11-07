@@ -13,11 +13,20 @@ const PokemonComponent = ({ pokemon }: Props) => {
 
   return (
     <Box key={pokemon.id} className='my-2'>
-      <Flex className='pb-2'>
+      <div className='pb-2 text-center'>
+            <Box className='sm:pb-0 pb-2 '>
+              <Image
+                alt={`image of ${pokemon.name}`}
+                src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/pokemonimages/${pokemon.image}`}
+                width={64}
+                height={64}
+                className='rounded'
+              />
+            </Box>
         <Heading size='6' weight='bold' className='py-1'>
           {pokemon.name[0].toUpperCase() + pokemon.name.slice(1)}{" "}
         </Heading>
-      </Flex>
+      </div>
 
       {variations.map((variation) => (
         <Card variant='surface' className='px-3 pt-2 mb-8' key={variation}>
@@ -35,15 +44,6 @@ const PokemonComponent = ({ pokemon }: Props) => {
 
           <hr className='mb-5 w-5  ' />
           <Box className='sm:flex block items-center gap-6'>
-            <Box className='sm:pb-0 pb-2 '>
-              <Image
-                alt={`image of ${pokemon.name}`}
-                src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/pokemonimages/${pokemon.image}`}
-                width={64}
-                height={64}
-                className='rounded'
-              />
-            </Box>
             <Grid columns={{ initial: "1", md: "2" }} className='grid w-full'>
               <Box>
                 {moves.map((move) => (
