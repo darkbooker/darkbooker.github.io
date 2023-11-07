@@ -20,10 +20,12 @@ const Page = async () => {
 
   // Center the content both horizontally and vertically with CSS
   const centerStyle = {
-    display: 'flex',
-    justifyContent: 'center', // Center horizontally
-    alignItems: 'flex-start', // Center vertically
-    height: '100vh', // Take up the full viewport height
+    display: 'block',      // Use 'block' display property
+    width: '100%',         // Make the container take up the full width
+    textAlign: 'center',   // Center text horizontally
+    position: 'absolute',  // Position the container absolutely
+    top: '50%',            // Center vertically (relative to the viewport)
+    transform: 'translateY(-50%)', // Correct for vertical centering
   };
 
   return (
