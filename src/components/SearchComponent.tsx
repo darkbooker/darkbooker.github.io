@@ -20,6 +20,7 @@ export default function SearchComponent() {
   const defferedSearch = useDeferredValue(search);
   const [pokemons, setPokemons] = useState<PokemonName[] | null>(null);
   const [highlightedOption, setHighlightedOption] = useState(-1);
+  const [isAutocompleteVisible, setIsAutocompleteVisible] = useState(false); // Track visibility of autocomplete options
 
   const handleChange = async (value: string) => {
     setSearch(value);
@@ -31,6 +32,7 @@ export default function SearchComponent() {
       const { data } = await supabase.from("pokemons").select("id,name");
       setPokemons(data);
     }
+    setIsAutocompleteVisible(true); // Show autocomplete options on focus
   };
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -53,7 +55,7 @@ export default function SearchComponent() {
           break;
         case "Enter":
           if (highlightedOption !== -1) {
-            router.push(`/${pokemons[highlightedOption].id}.name.toLowerCase()}`);
+            router.push(`/${pokemons[highlightedOption].id}`);
             setSearch("");
           }
           break;
@@ -91,7 +93,7 @@ export default function SearchComponent() {
             Search
           </Button>
         </TextField.Root>
-        {search && (
+        {isAutocompleteVisible && search && ( 
           <Box className='rounded-b-md rounded-bl-md relative w-full shadow-lg z-10'>
             <Box className='absolute bg-[#17191a] rounded-b-md rounded-bl-md py-1 w-full '>
               {pokemons?.map((pokemon: PokemonName, index) => (
@@ -106,6 +108,7 @@ export default function SearchComponent() {
                     router.push(`/${pokemon.id}`);
                     setSearch("");
                   }}
+                  style={{ cursor: 'pointer' }}
                 >
                   {pokemon.name[0].toUpperCase() + pokemon.name.slice(1)}
                 </Box>
