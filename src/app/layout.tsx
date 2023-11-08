@@ -26,8 +26,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   display: "flex",
                   flexDirection: "column",
                   alignItems: "center",
-                  justifyContent: "center",
-                  height: "100vh",
                 }}
               >
                 <Heading className="py-2">
