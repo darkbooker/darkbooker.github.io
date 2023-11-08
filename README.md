@@ -10,4 +10,4 @@
 
 <sub>Falkner Strategies<sub>
 
-![Falkner](https://play.pokemonshowdown.com/sprites/trainers/falkner.png) vs ![Kricketune](https://i.ibb.co/rMWWDns/kricketune.png)
+![Falkner](https://play.pokemonshowdown.com/sprites/trainers/falkner.png) vs [![Kricketune](https://i.ibb.co/rMWWDns/kricketune.png)](https://darkbooker-github-io.vercel.app/76/)
