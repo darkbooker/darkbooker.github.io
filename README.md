@@ -6,6 +6,4 @@
 
 __Falkner Strategies__
 
-![Kricketune](https://i.ibb.co/rMWWDns/kricketune.png) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Falkner](https://i.ibb.co/hmgbhxg/falkner.png) 
-
-[![Kricketune](https://i.ibb.co/py91zB5/F7R522b.png)](https://darkbooker-github-io.vercel.app/76/)
+[![Kricketune](https://i.ibb.co/rMWWDns/kricketune.png)](https://darkbooker-github-io.vercel.app/76/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Falkner](https://i.ibb.co/hmgbhxg/falkner.png) 
