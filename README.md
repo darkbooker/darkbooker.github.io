@@ -2,12 +2,8 @@
 ## Welcome to the Radical Red Moveset Database!
 <sup>_Report Mistakes in the Documentation-Reports channel in the Radical Red Discord._<sup>
 
-
-
 <sup>──────────<sup>
 
+__Falkner Strategies__
 
-
-<sub>Falkner Strategies<sub>
-
-![Falkner](https://play.pokemonshowdown.com/sprites/trainers/falkner.png) vs [![Kricketune](https://i.ibb.co/rMWWDns/kricketune.png)](https://darkbooker-github-io.vercel.app/76/)
+[![Kricketune](https://i.ibb.co/py91zB5/F7R522b.png)](https://darkbooker-github-io.vercel.app/76/)
