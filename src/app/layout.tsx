@@ -16,17 +16,27 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang='en'>
+    <html lang="en">
       <body className={inter.className}>
-        <Theme appearance='dark' accentColor='red' grayColor='auto'>
+        <Theme appearance="dark" accentColor="red" grayColor="auto">
           <Box>
-            <Container className='px-2'>
-              <Heading className='py-2'>
-                <Link href='/' className='text-white no-underline '>
-                  Radical <span className='text-[#A93226]'>Red</span> Movesets
-                </Link>
-              </Heading>
-              <SearchComponent />
+            <Container className="px-2">
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  height: "100vh",
+                }}
+              >
+                <Heading className="py-2">
+                  <Link href="/" className="text-white no-underline">
+                    Radical <span className="text-[#A93226]">Red</span> Movesets
+                  </Link>
+                </Heading>
+                <SearchComponent />
+              </div>
               {children}
             </Container>
           </Box>
