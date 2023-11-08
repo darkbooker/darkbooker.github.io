@@ -4,10 +4,10 @@
 
 <sup>──────────<sup>
 
-__Falkner Strategies__
+<code style="color : orangered">Falkner Strategies</code>
 
 [![Kricketune](https://i.ibb.co/rMWWDns/kricketune.png)](https://darkbooker-github-io.vercel.app/76/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Falkner](https://i.ibb.co/hmgbhxg/falkner.png) 
 
-__Brock Strategies__
+<code style="color : orangered">Brock Strategies</code>
 
 [![Kricketune](https://i.ibb.co/rMWWDns/kricketune.png)](https://darkbooker-github-io.vercel.app/76/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Brock](https://i.ibb.co/k4Mw9cn/brock.png) 
