@@ -6,7 +6,7 @@
 
 <sup>Falkner Strategies<sup>
 
-[![Kricketune](https://i.ibb.co/rMWWDns/kricketune.png)](https://darkbooker-github-io.vercel.app/76/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Falkner](https://i.ibb.co/hmgbhxg/falkner.png) 
+[![Luxio](https://i.ibb.co/f1k6g5N/luxio.png)](https://darkbooker-github-io.vercel.app/79/) [![Kricketune](https://i.ibb.co/rMWWDns/kricketune.png)](https://darkbooker-github-io.vercel.app/76/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Falkner](https://i.ibb.co/hmgbhxg/falkner.png) 
 
 <sup>Brock Strategies<sup>
 
