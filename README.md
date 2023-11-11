@@ -10,4 +10,4 @@
 
 <sup>Brock Strategies<sup>
 
-[![Kricketune](https://i.ibb.co/rMWWDns/kricketune.png)](https://darkbooker-github-io.vercel.app/76/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Brock](https://i.ibb.co/k4Mw9cn/brock.png) 
+[![Mightyena](https://i.ibb.co/9HPByRh/mightyena.png)](https://darkbooker-github-io.vercel.app/80/) [![Kricketune](https://i.ibb.co/rMWWDns/kricketune.png)](https://darkbooker-github-io.vercel.app/76/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Brock](https://i.ibb.co/k4Mw9cn/brock.png) 
