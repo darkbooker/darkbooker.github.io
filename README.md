@@ -15,3 +15,7 @@
 <sup>Archer 1 Strategies<sup>
 
 [![Simipour](https://i.ibb.co/k154QRB/simipour.png)](https://darkbooker-github-io.vercel.app/81/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Archer](https://i.ibb.co/ykjJWmW/archer.png) 
+
+<sup>Misty Strategies<sup>
+
+[![Boltund](https://i.ibb.co/Lv7tk2D/boltund.png)](https://darkbooker-github-io.vercel.app/82/) [![Jynx](https://i.ibb.co/bQvx7HD/jynx.png)](https://darkbooker-github-io.vercel.app/83/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Misty](https://i.ibb.co/0FsGbRY/misty.png) 
