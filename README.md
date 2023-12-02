@@ -23,4 +23,8 @@
 
 <sup>Lt. Surge Strategies<sup>
 
-[![RapidashGalar](https://i.ibb.co/Sy1pPG0/rapidash-Galar.png)](https://darkbooker-github-io.vercel.app/88/) [![Pawmot](https://i.ibb.co/ynW8ZwW/pawmot.png)](https://darkbooker-github-io.vercel.app/87/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Surge](https://i.ibb.co/s1Km4n9/surge.png) 
+[![RapidashGalar](https://i.ibb.co/Sy1pPG0/rapidash-Galar.png)](https://darkbooker-github-io.vercel.app/88/) [![Pawmot](https://i.ibb.co/ynW8ZwW/pawmot.png)](https://darkbooker-github-io.vercel.app/87/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Surge](https://i.ibb.co/s1Km4n9/surge.png)
+
+<sup>Blaine Strategies<sup>
+
+[![NinetalesAlola](https://i.ibb.co/fpXCRXd/download.png)](https://darkbooker-github-io.vercel.app/109/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Blaine](https://i.ibb.co/RSYC7hT/kPRMw78.png) 
