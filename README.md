@@ -33,6 +33,14 @@
 
 [![Nidoking](https://i.ibb.co/Q6wmbLv/nidoking.png)](https://darkbooker-github-io.vercel.app/120/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Giovanni](https://i.ibb.co/3cJ1p37/Giovanni.png)
 
+<sup>Silph. Co Archer & Ariana Strategies<sup>
+
+[![Alakazam](https://i.ibb.co/f8Gm072/alakazam.png)](https://darkbooker-github-io.vercel.app/121/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Archer&Ariana](https://i.ibb.co/XW86qqP/Archer-Ariana.png)
+
+<sup>Brock Rematch Strategies<sup>
+
+[![Orthworm](https://i.ibb.co/0QqWBDW/orthworm.png)](https://darkbooker-github-io.vercel.app/117/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Brock](https://i.ibb.co/k4Mw9cn/brock.png) 
+
 <sup>Blaine Strategies<sup>
 
 [![Tropius](https://i.ibb.co/4TZ8tcb/tropius.png)](https://darkbooker-github-io.vercel.app/123/) [![NinetalesAlola](https://i.ibb.co/fpXCRXd/download.png)](https://darkbooker-github-io.vercel.app/109/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Blaine](https://i.ibb.co/RSYC7hT/kPRMw78.png) 
