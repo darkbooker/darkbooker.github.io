@@ -25,6 +25,14 @@
 
 [![RapidashGalar](https://i.ibb.co/Sy1pPG0/rapidash-Galar.png)](https://darkbooker-github-io.vercel.app/88/) [![Pawmot](https://i.ibb.co/ynW8ZwW/pawmot.png)](https://darkbooker-github-io.vercel.app/87/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Surge](https://i.ibb.co/s1Km4n9/surge.png)
 
+<sup>Erika Strategies<sup>
+
+[![Vikavolt](https://i.ibb.co/MSPS6Lc/vikavolt.png)](https://darkbooker-github-io.vercel.app/119/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Erika](https://i.ibb.co/jLbNQ3d/Erika.png)
+
+<sup>Game Corner Giovanni Strategies<sup>
+
+[![Nidoking](https://i.ibb.co/Q6wmbLv/nidoking.png)](https://darkbooker-github-io.vercel.app/120/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Giovanni](https://i.ibb.co/3cJ1p37/Giovanni.png)
+
 <sup>Blaine Strategies<sup>
 
 [![Tropius](https://i.ibb.co/4TZ8tcb/tropius.png)](https://darkbooker-github-io.vercel.app/123/) [![NinetalesAlola](https://i.ibb.co/fpXCRXd/download.png)](https://darkbooker-github-io.vercel.app/109/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Blaine](https://i.ibb.co/RSYC7hT/kPRMw78.png) 
