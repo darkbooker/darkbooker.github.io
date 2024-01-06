@@ -11,11 +11,11 @@
 
 <sup>Brock Strategies<sup>
 
-[![Mightyena](https://i.ibb.co/9HPByRh/mightyena.png)](https://darkbooker-github-io.vercel.app/80/) [![Kricketune](https://i.ibb.co/rMWWDns/kricketune.png)](https://darkbooker-github-io.vercel.app/76/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Brock](https://i.ibb.co/k4Mw9cn/brock.png) 
+[![Applin](https://i.ibb.co/yRSY23j/applin.png)](https://darkbooker-github-io.vercel.app/125/) [![Mightyena](https://i.ibb.co/9HPByRh/mightyena.png)](https://darkbooker-github-io.vercel.app/80/) [![Kricketune](https://i.ibb.co/rMWWDns/kricketune.png)](https://darkbooker-github-io.vercel.app/76/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Brock](https://i.ibb.co/k4Mw9cn/brock.png) 
 
-<sup>Archer 1 Strategies<sup>
+<sup>Mt. Moon Archer Strategies<sup>
 
-[![Simipour](https://i.ibb.co/k154QRB/simipour.png)](https://darkbooker-github-io.vercel.app/81/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Archer](https://i.ibb.co/ykjJWmW/archer.png) 
+[![Simipour](https://i.ibb.co/k154QRB/simipour.png)](https://darkbooker-github-io.vercel.app/81/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Archer](https://i.ibb.co/68qjW9v/Archer.png) 
 
 <sup>Misty Strategies<sup>
 
@@ -27,4 +27,4 @@
 
 <sup>Blaine Strategies<sup>
 
-[![NinetalesAlola](https://i.ibb.co/fpXCRXd/download.png)](https://darkbooker-github-io.vercel.app/109/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Blaine](https://i.ibb.co/RSYC7hT/kPRMw78.png) 
+[![Tropius](https://i.ibb.co/4TZ8tcb/tropius.png)](https://darkbooker-github-io.vercel.app/123/) [![NinetalesAlola](https://i.ibb.co/fpXCRXd/download.png)](https://darkbooker-github-io.vercel.app/109/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Blaine](https://i.ibb.co/RSYC7hT/kPRMw78.png) 
