@@ -41,6 +41,14 @@
 
 [![Orthworm](https://i.ibb.co/0QqWBDW/orthworm.png)](https://darkbooker-github-io.vercel.app/117/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Brock](https://i.ibb.co/k4Mw9cn/brock.png) 
 
+<sup>Pryce Strategies<sup>
+
+[![MegaMachamp](https://i.ibb.co/qCKpMWk/machamp-Mega.png)](https://darkbooker-github-io.vercel.app/127/) [![Delphox](https://i.ibb.co/MgYXDK7/delphox.png)](https://darkbooker-github-io.vercel.app/128/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Pryce](https://i.ibb.co/FmyqrnB/Pryce.png)
+
 <sup>Blaine Strategies<sup>
 
-[![Tropius](https://i.ibb.co/4TZ8tcb/tropius.png)](https://darkbooker-github-io.vercel.app/123/) [![NinetalesAlola](https://i.ibb.co/fpXCRXd/download.png)](https://darkbooker-github-io.vercel.app/109/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Blaine](https://i.ibb.co/RSYC7hT/kPRMw78.png) 
+[![Tropius](https://i.ibb.co/4TZ8tcb/tropius.png)](https://darkbooker-github-io.vercel.app/123/) [![NinetalesAlola](https://i.ibb.co/fpXCRXd/download.png)](https://darkbooker-github-io.vercel.app/109/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Blaine](https://i.ibb.co/RSYC7hT/kPRMw78.png)
+
+<sup>Jasmine Strategies<sup>
+
+[![MegaMachamp](https://i.ibb.co/qCKpMWk/machamp-Mega.png)](https://darkbooker-github-io.vercel.app/127/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Jasmine](https://i.ibb.co/6y47XM7/Jasmine.png)
