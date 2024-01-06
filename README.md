@@ -52,3 +52,11 @@
 <sup>Jasmine Strategies<sup>
 
 [![MegaMachamp](https://i.ibb.co/qCKpMWk/machamp-Mega.png)](https://darkbooker-github-io.vercel.app/127/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Jasmine](https://i.ibb.co/6y47XM7/Jasmine.png)
+
+<sup>Cerulean Cave Archer Strategies<sup>
+
+[![Zeraora](https://i.ibb.co/NNQf7q7/zeraora.png)](https://darkbooker-github-io.vercel.app/122/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Archer](https://i.ibb.co/68qjW9v/Archer.png)
+
+<sup>Cerulean Cave Ariana Strategies<sup>
+
+[![SandyShocks](https://i.ibb.co/DGbshy4/sandy-Shocks.png)](https://darkbooker-github-io.vercel.app/114/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Ariana](https://i.ibb.co/TYnjzxH/Ariana.png)
