@@ -55,7 +55,7 @@
 
 <sup>Erika Rematch Strategies<sup>
 
-[![RapidashGalar](https://i.ibb.co/mbjMpSp/aerodactyl-Mega.png)](https://movesets.radicalred.net/150/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Erika](https://i.ibb.co/jLbNQ3d/Erika.png) 
+[![RapidashGalar](https://i.ibb.co/Sy1pPG0/rapidash-Galar.png)](https://movesets.radicalred.net/150/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Erika](https://i.ibb.co/jLbNQ3d/Erika.png) 
 
 <sup>Fuchsia City Brendan Strategies<sup>
 
