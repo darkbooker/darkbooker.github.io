@@ -23,7 +23,7 @@
 
 <sup>Lt. Surge Strategies<sup>
 
-[![RapidashGalar](https://i.ibb.co/Sy1pPG0/rapidash-Galar.png)](https://movesets.radicalred.net/131/) [![Pawmot](https://i.ibb.co/ynW8ZwW/pawmot.png)](https://movesets.radicalred.net/87/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Surge](https://i.ibb.co/s1Km4n9/surge.png)
+[![MrMimeGalar](https://i.ibb.co/sbTCpSw/mr-Mime-Galar.png)](https://movesets.radicalred.net/143/) [![RapidashGalar](https://i.ibb.co/Sy1pPG0/rapidash-Galar.png)](https://movesets.radicalred.net/131/) [![Pawmot](https://i.ibb.co/ynW8ZwW/pawmot.png)](https://movesets.radicalred.net/87/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Surge](https://i.ibb.co/s1Km4n9/surge.png)
 
 <sup>Chuck Strategies<sup>
 
@@ -47,15 +47,23 @@
 
 <sup>Brock Rematch Strategies<sup>
 
-[![Orthworm](https://i.ibb.co/0QqWBDW/orthworm.png)](https://movesets.radicalred.net/117/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Brock](https://i.ibb.co/k4Mw9cn/brock.png)
+[![Clefable](https://i.ibb.co/rwcYNm6/clefable.png)](https://movesets.radicalred.net/146/) [![Orthworm](https://i.ibb.co/0QqWBDW/orthworm.png)](https://movesets.radicalred.net/117/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Brock](https://i.ibb.co/k4Mw9cn/brock.png)
 
 <sup>Lt. Surge Rematch Strategies<sup>
 
-[![Eelektross](https://i.ibb.co/TR7F4MP/eelektross.png)](https://movesets.radicalred.net/142/) [VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Surge](https://i.ibb.co/s1Km4n9/surge.png)
+[![Eelektross](https://i.ibb.co/TR7F4MP/eelektross.png)](https://movesets.radicalred.net/142/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Surge](https://i.ibb.co/s1Km4n9/surge.png) 
 
 <sup>Erika Rematch Strategies<sup>
 
-[![RapidashGalar](https://i.ibb.co/Sy1pPG0/rapidash-Galar.png)](https://movesets.radicalred.net/88/) [VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Erika](https://i.ibb.co/jLbNQ3d/Erika.png)
+[![RapidashGalar](https://i.ibb.co/mbjMpSp/aerodactyl-Mega.png)](https://movesets.radicalred.net/150/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Erika](https://i.ibb.co/jLbNQ3d/Erika.png) 
+
+<sup>Fuchsia City Brendan Strategies<sup>
+
+[![AerodactylMega](https://i.ibb.co/VCyc9wf/swampert.png)](https://movesets.radicalred.net/101/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Brendan](https://i.ibb.co/ynWNDD1/Brendan.png) 
+
+<sup>Koga Strategies<sup>
+
+[![SwampertMega](https://i.ibb.co/VCyc9wf/swampert.png)](https://movesets.radicalred.net/101/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Koga](https://i.ibb.co/ZY80b49/Koga.png) 
 
 <sup>Pryce Strategies<sup>
 
