@@ -25,6 +25,10 @@
 
 [![RapidashGalar](https://i.ibb.co/Sy1pPG0/rapidash-Galar.png)](https://movesets.radicalred.net/131/) [![Pawmot](https://i.ibb.co/ynW8ZwW/pawmot.png)](https://movesets.radicalred.net/87/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Surge](https://i.ibb.co/s1Km4n9/surge.png)
 
+<sup>Chuck Strategies<sup>
+
+[![Gyarados](https://i.ibb.co/Dtz2N9Y/gyarados.png)](https://movesets.radicalred.net/132/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Chuck](https://i.ibb.co/q0Gfqx3/Chuck.png)
+
 <sup>Erika Strategies<sup>
 
 [![Altaria](https://i.ibb.co/hs22S89/altaria.png)](https://movesets.radicalred.net/131/) [![Vikavolt](https://i.ibb.co/MSPS6Lc/vikavolt.png)](https://movesets.radicalred.net/119/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Erika](https://i.ibb.co/jLbNQ3d/Erika.png)
@@ -64,3 +68,7 @@
 <sup>Cerulean Cave Ariana Strategies<sup>
 
 [![Regieleki](https://i.ibb.co/5RJPBkd/regieleki.webp)](https://movesets.radicalred.net/111/) [![SandyShocks](https://i.ibb.co/DGbshy4/sandy-Shocks.png)](https://movesets.radicalred.net/114/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Ariana](https://i.ibb.co/TYnjzxH/Ariana.png)
+
+<sup>Clair Strategies<sup>
+
+[![Ditto](https://i.ibb.co/SfZxd0h/ditto.png)](https://movesets.radicalred.net/144/) [![MegaMachamp](https://i.ibb.co/qCKpMWk/machamp-Mega.png)](https://movesets.radicalred.net/127/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Clair](https://i.ibb.co/19W3CWg/clair.png)
