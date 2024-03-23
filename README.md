@@ -7,7 +7,7 @@
 
 <sup>Falkner Strategies<sup>
 
-[![Luxio](https://i.ibb.co/XYYkSvk/luxio.png)](https://movesets.radicalred.net/79/) [![Kricketune](https://i.ibb.co/rMWWDns/kricketune.png)](https://movesets.radicalred.net/76/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Falkner](https://i.ibb.co/hmgbhxg/falkner.png) 
+[![Luxio](https://i.ibb.co/XYYkSvk/luxio.png)](https://movesets.radicalred.net/79/) [![Kricketune](https://i.ibb.co/rMWWDns/kricketune.png)](https://movesets.radicalred.net/76/) [![GrimerAlola](https://i.ibb.co/9cfH9Lk/grimer-Alola.png)](https://movesets.radicalred.net/135/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Falkner](https://i.ibb.co/hmgbhxg/falkner.png) 
 
 <sup>Brock Strategies<sup>
 
@@ -41,13 +41,21 @@
 
 [![Alakazam](https://i.ibb.co/f8Gm072/alakazam.png)](https://movesets.radicalred.net/121/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Archer&Ariana](https://i.ibb.co/XW86qqP/Archer-Ariana.png)
 
+<sup>Game Silph Co. Giovanni Strategies<sup>
+
+[![Chesnaught](https://i.ibb.co/bmVhbB9/chesnaught.png)](https://movesets.radicalred.net/134/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Giovanni](https://i.ibb.co/3cJ1p37/Giovanni.png)
+
 <sup>Brock Rematch Strategies<sup>
 
-[![Orthworm](https://i.ibb.co/0QqWBDW/orthworm.png)](https://movesets.radicalred.net/117/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Brock](https://i.ibb.co/k4Mw9cn/brock.png) 
+[![Orthworm](https://i.ibb.co/0QqWBDW/orthworm.png)](https://movesets.radicalred.net/117/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Brock](https://i.ibb.co/k4Mw9cn/brock.png)
+
+<sup>Lt. Surge Rematch Strategies<sup>
+
+[![Eelektross](https://i.ibb.co/TR7F4MP/eelektross.png)](https://movesets.radicalred.net/142/) [VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Surge](https://i.ibb.co/s1Km4n9/surge.png)
 
 <sup>Erika Rematch Strategies<sup>
 
-[![RapidashGalar](https://i.ibb.co/Sy1pPG0/rapidash-Galar.png)](https://movesets.radicalred.net/88/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Erika](https://i.ibb.co/jLbNQ3d/Erika.png)
+[![RapidashGalar](https://i.ibb.co/Sy1pPG0/rapidash-Galar.png)](https://movesets.radicalred.net/88/) [VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Erika](https://i.ibb.co/jLbNQ3d/Erika.png)
 
 <sup>Pryce Strategies<sup>
 
@@ -71,4 +79,8 @@
 
 <sup>Clair Strategies<sup>
 
-[![Ditto](https://i.ibb.co/SfZxd0h/ditto.png)](https://movesets.radicalred.net/144/) [![MegaMachamp](https://i.ibb.co/qCKpMWk/machamp-Mega.png)](https://movesets.radicalred.net/127/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Clair](https://i.ibb.co/19W3CWg/clair.png)
+[![Azelf](https://i.ibb.co/xz0Dkyg/azelf.png)](https://movesets.radicalred.net/141/) [![Ditto](https://i.ibb.co/SfZxd0h/ditto.png)](https://movesets.radicalred.net/144/) [![MegaMachamp](https://i.ibb.co/qCKpMWk/machamp-Mega.png)](https://movesets.radicalred.net/127/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Clair](https://i.ibb.co/19W3CWg/clair.png)
+
+<sup>Route 22 Rival Strategies<sup>
+
+[![Regieleki](https://i.ibb.co/5RJPBkd/regieleki.webp)](https://movesets.radicalred.net/111/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Rival](https://i.ibb.co/dpc4C7t/Rival.png)
