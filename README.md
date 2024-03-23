@@ -59,7 +59,7 @@
 
 <sup>Fuchsia City Brendan Strategies<sup>
 
-[![AerodactylMega](https://i.ibb.co/VCyc9wf/swampert.png)](https://movesets.radicalred.net/101/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Brendan](https://i.ibb.co/ynWNDD1/Brendan.png) 
+[![AerodactylMega](https://i.ibb.co/mbjMpSp/aerodactyl-Mega.png)](https://movesets.radicalred.net/150/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Brendan](https://i.ibb.co/ynWNDD1/Brendan.png) 
 
 <sup>Koga Strategies<sup>
 
