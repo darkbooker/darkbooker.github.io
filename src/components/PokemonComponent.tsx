@@ -21,6 +21,7 @@ const PokemonComponent = ({ pokemon }: Props) => {
                 width={128}
                 height={128}
                 className='rounded'
+                style={{ imageRendering: 'pixelated' }}
               />
             </Box>
         <Heading size='6' weight='bold' className='py-1'>
