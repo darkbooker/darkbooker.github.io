@@ -55,7 +55,7 @@ const PokemonComponent = ({ pokemon }: Props) => {
                   </Text>
                 ))}
               </Box>
-              <Box>
+              <Box className='flex flex-col items-start md:items-end'>
                 <Text as='div' color='gray' size='3'>
                   <Flex>
                     <div className='w-16'>Item:</div>
