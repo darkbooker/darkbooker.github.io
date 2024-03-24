@@ -18,8 +18,8 @@ const PokemonComponent = ({ pokemon }: Props) => {
               <Image
                 alt={`image of ${pokemon.name}`}
                 src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/pokemonimages/${pokemon.image}`}
-                width={64}
-                height={64}
+                width={128}
+                height={128}
                 className='rounded'
               />
             </Box>
