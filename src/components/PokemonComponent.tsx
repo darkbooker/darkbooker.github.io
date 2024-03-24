@@ -18,9 +18,9 @@ const PokemonComponent = ({ pokemon }: Props) => {
               <Image
                 alt={`image of ${pokemon.name}`}
                 src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/pokemonimages/${pokemon.image}`}
-                width={128}
-                height={128}
-                style={{ imageRendering: 'pixelated' }}
+                width={64}
+                height={64}
+                className='rounded'
               />
             </Box>
         <Heading size='6' weight='bold' className='py-1'>
