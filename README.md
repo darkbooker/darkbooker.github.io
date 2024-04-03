@@ -23,7 +23,7 @@
 
 <sup>Lt. Surge Strategies<sup>
 
-[![MrMimeGalar](https://i.ibb.co/sbTCpSw/mr-Mime-Galar.png)](https://movesets.radicalred.net/143/) [![RapidashGalar](https://i.ibb.co/Sy1pPG0/rapidash-Galar.png)](https://movesets.radicalred.net/131/) [![Pawmot](https://i.ibb.co/ynW8ZwW/pawmot.png)](https://movesets.radicalred.net/87/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Surge](https://i.ibb.co/s1Km4n9/surge.png)
+[![MrMimeGalar](https://i.ibb.co/sbTCpSw/mr-Mime-Galar.png)](https://movesets.radicalred.net/143/) [![RapidashGalar](https://i.ibb.co/Sy1pPG0/rapidash-Galar.png)](https://movesets.radicalred.net/88/) [![Pawmot](https://i.ibb.co/ynW8ZwW/pawmot.png)](https://movesets.radicalred.net/87/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Surge](https://i.ibb.co/s1Km4n9/surge.png)
 
 <sup>Chuck Strategies<sup>
 
@@ -55,7 +55,7 @@
 
 <sup>Erika Rematch Strategies<sup>
 
-[![RapidashGalar](https://i.ibb.co/Sy1pPG0/rapidash-Galar.png)](https://movesets.radicalred.net/150/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Erika](https://i.ibb.co/jLbNQ3d/Erika.png) 
+[![RapidashGalar](https://i.ibb.co/Sy1pPG0/rapidash-Galar.png)](https://movesets.radicalred.net/88/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Erika](https://i.ibb.co/jLbNQ3d/Erika.png) 
 
 <sup>Fuchsia City Brendan Strategies<sup>
 
