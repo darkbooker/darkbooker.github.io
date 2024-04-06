@@ -45,17 +45,21 @@
 
 [![Chesnaught](https://i.ibb.co/bmVhbB9/chesnaught.png)](https://movesets.radicalred.net/134/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Giovanni](https://i.ibb.co/3cJ1p37/Giovanni.png)
 
+<sup>Chuck Strategies<sup>
+
+[![Talonflame](https://i.ibb.co/0DN7Ln3/talonflame.png)](https://movesets.radicalred.net/157/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Chuck](https://i.ibb.co/27vbD3n/Chuck.png)
+
 <sup>Brock Rematch Strategies<sup>
 
 [![Clefable](https://i.ibb.co/rwcYNm6/clefable.png)](https://movesets.radicalred.net/146/) [![Orthworm](https://i.ibb.co/0QqWBDW/orthworm.png)](https://movesets.radicalred.net/117/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Brock](https://i.ibb.co/k4Mw9cn/brock.png)
 
 <sup>Lt. Surge Rematch Strategies<sup>
 
-[![Eelektross](https://i.ibb.co/TR7F4MP/eelektross.png)](https://movesets.radicalred.net/142/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Surge](https://i.ibb.co/s1Km4n9/surge.png) 
+[![Torterra](https://i.ibb.co/R07JcFt/torterra.png)](https://movesets.radicalred.net/57/) [![Eelektross](https://i.ibb.co/TR7F4MP/eelektross.png)](https://movesets.radicalred.net/142/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Surge](https://i.ibb.co/s1Km4n9/surge.png) 
 
 <sup>Erika Rematch Strategies<sup>
 
-[![RapidashGalar](https://i.ibb.co/Sy1pPG0/rapidash-Galar.png)](https://movesets.radicalred.net/88/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Erika](https://i.ibb.co/jLbNQ3d/Erika.png) 
+[![MegaMachamp](https://i.ibb.co/qCKpMWk/machamp-Mega.png)](https://movesets.radicalred.net/127/) [![UnfezantM](https://i.ibb.co/fkXCdNh/nnfezant-Male.png)](https://movesets.radicalred.net/153/) [![RapidashGalar](https://i.ibb.co/Sy1pPG0/rapidash-Galar.png)](https://movesets.radicalred.net/88/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Erika](https://i.ibb.co/jLbNQ3d/Erika.png) 
 
 <sup>Fuchsia City Brendan Strategies<sup>
 
