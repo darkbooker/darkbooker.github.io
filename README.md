@@ -25,10 +25,6 @@
 
 [![MrMimeGalar](https://i.ibb.co/sbTCpSw/mr-Mime-Galar.png)](https://movesets.radicalred.net/143/) [![RapidashGalar](https://i.ibb.co/Sy1pPG0/rapidash-Galar.png)](https://movesets.radicalred.net/88/) [![Pawmot](https://i.ibb.co/ynW8ZwW/pawmot.png)](https://movesets.radicalred.net/87/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Surge](https://i.ibb.co/s1Km4n9/surge.png)
 
-<sup>Chuck Strategies<sup>
-
-[![Gyarados](https://i.ibb.co/Dtz2N9Y/gyarados.png)](https://movesets.radicalred.net/132/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Chuck](https://i.ibb.co/q0Gfqx3/Chuck.png)
-
 <sup>Erika Strategies<sup>
 
 [![Altaria](https://i.ibb.co/hs22S89/altaria.png)](https://movesets.radicalred.net/131/) [![Vikavolt](https://i.ibb.co/MSPS6Lc/vikavolt.png)](https://movesets.radicalred.net/119/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Erika](https://i.ibb.co/jLbNQ3d/Erika.png)
@@ -47,7 +43,7 @@
 
 <sup>Chuck Strategies<sup>
 
-[![Talonflame](https://i.ibb.co/0DN7Ln3/talonflame.png)](https://movesets.radicalred.net/157/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Chuck](https://i.ibb.co/27vbD3n/Chuck.png)
+[![Talonflame](https://i.ibb.co/0DN7Ln3/talonflame.png)](https://movesets.radicalred.net/157/) [![Gyarados](https://i.ibb.co/Dtz2N9Y/gyarados.png)](https://movesets.radicalred.net/132/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Chuck](https://i.ibb.co/27vbD3n/Chuck.png)
 
 <sup>Brock Rematch Strategies<sup>
 
