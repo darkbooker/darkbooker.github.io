@@ -43,7 +43,11 @@
 
 <sup>Chuck Strategies<sup>
 
-[![Talonflame](https://i.ibb.co/0DN7Ln3/talonflame.png)](https://movesets.radicalred.net/157/) [![Gyarados](https://i.ibb.co/Dtz2N9Y/gyarados.png)](https://movesets.radicalred.net/132/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Chuck](https://i.ibb.co/27vbD3n/Chuck.png)
+[![Cinderace](https://i.ibb.co/3cVHRz3/cinderace.png)](https://movesets.radicalred.net/164/) [![Talonflame](https://i.ibb.co/0DN7Ln3/talonflame.png)](https://movesets.radicalred.net/157/) [![Gyarados](https://i.ibb.co/Dtz2N9Y/gyarados.png)](https://movesets.radicalred.net/132/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Chuck](https://i.ibb.co/27vbD3n/Chuck.png)
+
+<sup>Dumass Kid Strategies<sup>
+
+[![Liepard](https://i.ibb.co/47prnq9/liepard.png)](https://movesets.radicalred.net/92/) ![VS](https://i.ibb.co/7QqRcy1/VS-Sprite.png) ![Kid](https://i.ibb.co/qFtPvh5/Kid.png)
 
 <sup>Brock Rematch Strategies<sup>
 
